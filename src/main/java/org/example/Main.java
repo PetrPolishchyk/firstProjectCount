@@ -1,6 +1,7 @@
 package org.example;
 import java.lang.String;
 import java.lang.System;
+import java.util.Scanner;
 
 public class Main {
     public static <string> void main(String[] args) {
@@ -18,5 +19,8 @@ public class Main {
         System.out.println(num);
         System.out.println(number);
         System.out.println(button);
+
+        Scanner str = new Scanner(System.in);
+        System.out.println("Your string is:" + str.nextLine());
     }
 }
