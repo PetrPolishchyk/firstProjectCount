@@ -16,11 +16,23 @@ public class Main {
         char loop = 'H';
         String button = "Hello again!";
 
-        System.out.println(num);
-        System.out.println(number);
-        System.out.println(button);
+        //System.out.println(num);
+        //System.out.println(number);
+        //System.out.println(button);
 
-        Scanner str = new Scanner(System.in);
-        System.out.println("Your string is:" + str.nextLine());
+        //Scanner str = new Scanner(System.in);
+        //System.out.println("Your string is:" + str.nextLine());
+
+        Scanner numb = new Scanner(System.in);
+        int first, second;
+        float result;
+        System.out.println("Enter first number, please: ");
+        first = numb.nextInt();
+        System.out.println("Enter second number, please: ");
+        second = numb.nextInt();
+        result = first + second;
+        result /= 2;
+        System.out.println("Your summ is : " + result);
+        
     }
 }
