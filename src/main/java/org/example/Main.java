@@ -104,6 +104,24 @@ public class Main {
         }
 */
         //Array
+        int[] name = new int[3];
+        name[0] = 10;
+        name[1] = 20;
+        name[2] = 30;
+
+        int[] name2 = new int[] {25, 74, 120, 511, 877};
+        System.out.println(name2[3]);
+
+        int[] a;
+        int n;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter numbers of array: ");
+        n = in.nextInt();
+        a = new int [n];
+        for (int i = 0; i < n; i++){
+            System.out.println("Enter a[" + i + "] = ");
+            a[i] = in.nextInt();
+        }
 
 }
 }
