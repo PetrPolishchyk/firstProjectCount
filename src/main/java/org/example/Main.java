@@ -103,6 +103,7 @@ public class Main {
             }
         }
 */
+/*
         //Array
         int[] name = new int[3];
         name[0] = 10;
@@ -114,14 +115,21 @@ public class Main {
 
         int[] a;
         int n;
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter numbers of array: ");
-        n = in.nextInt();
+        n = sc.nextInt();
         a = new int [n];
         for (int i = 0; i < n; i++){
             System.out.println("Enter a[" + i + "] = ");
-            a[i] = in.nextInt();
+            a[i] = sc.nextInt();
         }
+
+        char[][] array = new char[3][3];
+        array[0][0] = 'C';
+        array[0][1] = 'B';
+        array[0][2] = 'A';
+ */
+        //functions
 
 }
 }
