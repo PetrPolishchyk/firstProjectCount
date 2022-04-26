@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ee4126-a918-47cf-a09b-05b61a5ac214" name="Changes" comment="array">
+    <list default="true" id="a3ee4126-a918-47cf-a09b-05b61a5ac214" name="Changes" comment="function commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -161,7 +161,8 @@
     <MESSAGE value="lesson 6 done" />
     <MESSAGE value="lesson 7 and 8" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="function commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="function commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/firstProjectCount$Main.ic" NAME="Main Coverage Results" MODIFIED="1650904278365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

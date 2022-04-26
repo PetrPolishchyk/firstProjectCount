@@ -130,6 +130,27 @@ public class Main {
         array[0][2] = 'A';
  */
         //functions
+        int temp = func(3, 4);
+        System.out.println(temp);
+        readArray();
+        }
+        public static int func (int a, int b) {
+        int result = 1;
+        for (int i = 0; i < b; i++){
+            result *= a;
+        }
+        return result;
+        }
 
-}
+        public static int[] readArray (){
+        int[] arr;
+        int n;
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
+        arr = new int[n];
+        for (int i = 0; i < n; i++)
+            arr[i] = in.nextInt();
+        return arr;
+        }
+
 }
