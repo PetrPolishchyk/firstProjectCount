@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ee4126-a918-47cf-a09b-05b61a5ac214" name="Changes" comment="constructor and nasl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Square.java" afterDir="false" />
+    <list default="true" id="a3ee4126-a918-47cf-a09b-05b61a5ac214" name="Changes" comment="consisting class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Amonter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SecondMindStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeginnerStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeginnerMainStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,7 +60,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="firstProjectCount" />
       <extension name="coverage">
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651337775684</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="consisting class">
+      <created>1651397936359</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651397936359</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +207,8 @@
     <MESSAGE value="add classes" />
     <MESSAGE value="constructor" />
     <MESSAGE value="constructor and nasl" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor and nasl" />
+    <MESSAGE value="consisting class" />
+    <option name="LAST_COMMIT_MESSAGE" value="consisting class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/firstProjectCount$Main.ic" NAME="Main Coverage Results" MODIFIED="1650904278365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

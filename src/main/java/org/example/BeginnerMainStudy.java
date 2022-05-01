@@ -1,9 +1,6 @@
 package org.example;
-import java.lang.String;
-import java.lang.System;
-import java.util.Scanner;
 
-public class BeginnerStudy {
+public class BeginnerMainStudy {
     // System.out.println("Hello world, I am back!");
         //System.out.println("Hello World");
  /*
