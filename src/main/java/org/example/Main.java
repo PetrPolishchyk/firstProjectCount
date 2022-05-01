@@ -23,6 +23,27 @@ public class Main {
         Student freshman = new Student(76, "Name is Telon", 1);
         System.out.println(freshman.height + freshman.phrase + freshman.course);
         freshman.tell();
+
+        Shape[] arry = new Shape[]{new Circle(), new Square()};
+        for (int i = 0; i<arry.length; i++) {
+            arry[i].draw();
+        }
+        //17
+        Computer comp = new Computer();
+        comp.i7.start();
+        comp.transcend.start();
+        comp.i7.shutdown();
+        comp.transcend.shutdown();
+        //anonimous class
+/*
+        new Computer(){
+            void superComp(){
+                this.i7.start();
+                this.transcend.start();
+            }
+        };
+*/
+
         }
 
 
@@ -41,8 +62,9 @@ public class Main {
         Scanner in = new Scanner(System.in);
         n = in.nextInt();
         arr = new int[n];
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             arr[i] = in.nextInt();
+        }
         return arr;
         }
 
