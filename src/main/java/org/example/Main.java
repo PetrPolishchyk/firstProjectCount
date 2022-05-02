@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Main {
     public static <string> void main(String[] args) {
-
+        SimpleGUI app = new SimpleGUI();
+        app.setVisible(true);
         }
 
         //functions
